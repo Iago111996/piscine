@@ -6,21 +6,27 @@
 /*   By: iago <iago@42.fr>                          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/11 19:41:49 by iago              #+#    #+#             */
-/*   Updated: 2025/06/12 10:46:44 by iago             ###   ########.fr       */
+/*   Updated: 2025/06/12 11:41:22 by iago             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
-void ft_putchar(char c){
+void ft_putchar(char c)
+{
+
 	write(1, &c, 1);
+	
 }
 
 
-int main() {
+int main()
+{
+
 	char a;
 	a = 'Z';
 
 	ft_putchar(a);	
 
 	return(0);
+
 }
