@@ -6,19 +6,19 @@
 /*   By: iago <iago@42.fr>                          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/13 18:26:32 by iago              #+#    #+#             */
-/*   Updated: 2025/06/13 21:20:07 by iago             ###   ########.fr       */
+/*   Updated: 2025/06/15 22:16:03 by iago             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-
-void ft_print_comb(void) 
+void	ft_print_comb(void)
 {
-	char a,b,c;
-	char space = ' ';
-	char com = ',';
-
+	char	a;
+	char	b;
+	char	c;
+	char	space = ' ';
+	char	com = ',';
 	a = '0';
 	while(a <= '7')
 	{
@@ -45,6 +45,5 @@ int main(int argc, char *argv[])
 {
 	ft_print_comb();
 
-	return 0;
+	return (0);
 }
-
