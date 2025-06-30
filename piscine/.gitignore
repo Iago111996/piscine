@@ -1,0 +1,40 @@
+# Executáveis compilados
+*.out
+*.exe
+a.out
+
+# Arquivos objeto
+*.o
+*.obj
+
+# Bibliotecas
+*.a
+*.so
+*.lib
+*.dll
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Arquivos temporários do editor
+*~
+*.swp
+*.swo
+.vscode/
+*.tmp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de build
+build/
+dist/
+*.log
+
+*.ccls-cache
+# Executáveis sem extensão (comum no Linux)
+# Adicione os nomes específicos dos seus executáveis
